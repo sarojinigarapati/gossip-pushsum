@@ -1,0 +1,74 @@
+COP 5615
+
+Project 2 - Gossip Simulator
+
+Name 						UFID
+Sarojini Garapati 			8182-8646
+Sharath chandra Darsha 		4519-4064
+
+Instructions to run the code:
+
+1) Go to the directory containing project2.scala and build.sbt
+2) Run "sbt"
+3) Run "run <number of nodes> <topology> <algorithm>
+
+
+Results:
+
+sharath@sharath-Lenovo-Z40-70:~/gossip-protocol$ sbt
+[info] Set current project to My Project (in build file:/home/sharath/gossip-protocol/)
+> run 64 full gossip
+[info] Compiling 1 Scala source to /home/sharath/gossip-protocol/target/scala-2.11/classes...
+[info] Running project2 64 full gossip
+project2 - Gossip Protocol
+Starting the algorithm from node = 55
+****** Time to converge = 33 milliseconds ******
+[success] Total time: 4 s, completed Oct 4, 2015 12:43:14 PM
+> run 64 line gossip
+[info] Running project2 64 line gossip
+project2 - Gossip Protocol
+Starting the algorithm from node = 38
+****** Time to converge = 7 milliseconds ******
+[success] Total time: 1 s, completed Oct 4, 2015 12:44:56 PM
+> run 64 3D gossip
+[info] Running project2 64 3D gossip
+project2 - Gossip Protocol
+Starting the algorithm from node = 1.0.2
+****** Time to converge = 20 milliseconds ******
+[success] Total time: 0 s, completed Oct 4, 2015 12:45:03 PM
+> run 64 imp3D gossip
+[info] Running project2 64 imp3D gossip
+project2 - Gossip Protocol
+Starting the algorithm from node = 1.0.3
+****** Time to converge = 13 milliseconds ******
+[success] Total time: 0 s, completed Oct 4, 2015 12:45:08 PM
+> run 64 full push-sum
+[info] Running project2 64 full push-sum
+project2 - Gossip Protocol
+Starting the algorithm from node = 7
+****** Time to converge = 499 milliseconds ******
+****** Sum = 2079.9999999996335 ******
+[success] Total time: 1 s, completed Oct 4, 2015 12:45:21 PM
+> run 64 line push-sum
+[info] Running project2 64 line push-sum
+project2 - Gossip Protocol
+Starting the algorithm from node = 59
+****** Time to converge = 1579 milliseconds ******
+****** Sum = 2079.987038628182 ******
+[success] Total time: 2 s, completed Oct 4, 2015 12:45:36 PM
+> run 64 3D push-sum
+[info] Running project2 64 3D push-sum
+project2 - Gossip Protocol
+Starting the algorithm from node = 1.1.0
+****** Time to converge = 391 milliseconds ******
+****** Sum = 2139.999999998211 ******
+[success] Total time: 1 s, completed Oct 4, 2015 12:45:43 PM
+> run 64 imp3D push-sum
+[info] Running project2 64 imp3D push-sum
+project2 - Gossip Protocol
+Starting the algorithm from node = 0.0.2
+****** Time to converge = 357 milliseconds ******
+****** Sum = 2140.9999999982992 ******
+[success] Total time: 1 s, completed Oct 4, 2015 12:45:48 PM
+
+
